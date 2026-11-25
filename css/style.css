@@ -1,0 +1,291 @@
+header{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #edf6fc;
+    width: 100%;
+    height: 90px;
+    
+}
+
+#burguer{
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    font-family: 'skranji';
+    color: #d80d0dc9;
+    text-shadow: 1px 1px 0px #000;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-right: 70px;
+    font-size: 20px;
+    transition: .2s
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #a7bac9;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #000;
+    border-radius: 5px;
+}
+
+/*Ínicio da primeria Section*/
+
+.banner {
+    background-image: url(../assets/imagens/BackGrounds/fundo\ de\ gelo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top: 2px solid #353636a4;
+    height: 550px;
+}
+
+section h1 {
+    font-family: 'Nordica';
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #000;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+.container-colum {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+section iframe {
+    margin-top: 50px;
+}
+
+.lancamento {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    gap: 20px;
+    padding: 45px;
+    width: 35rem;
+    height: 355px;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.btn1 {
+    color: #faebd7;
+    background-color: #d40404;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway';
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btn1:hover {
+    background-color: #2e61ad;
+}
+
+/*Ínicio da segunda section*/
+.banner2 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.712), rgb(0, 0, 0)),url(../assets/imagens/BackGrounds/God-of-War-Series.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 2px solid #353636a4;
+    color: #ffffff;
+    height: 780px;
+}
+.kratos-atreus {
+    background-image: url(../assets/imagens/IconPng/kratos-and-boy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 780px;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.introducao h1:nth-child(1) {
+    color: #5483ca;
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Raleway';
+    margin-top: 10px;
+    width: 500px;
+    font-size: 1.2rem;
+    margin-left: 550px;
+    letter-spacing: 1px;
+}
+
+/*Ínicio da Loja*/
+
+.loja {
+    background-image: linear-gradient(rgba(189, 170, 170, 0.822), rgb(255, 255, 255)),url(../assets/imagens/BackGrounds/Sony\ botoes.jpg);
+    border-top: 2px solid #353636a4;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-bottom: 50px;
+}
+
+.loja-titulo {
+    font-family: 'Nordica';
+    color: #ff9101cc;
+    padding: 50px;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.loja-cards {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 90%;
+    gap: 40px;
+}
+
+.loja-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-size: 25px;
+    width: 220px;
+}
+
+.loja-lancamento {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+/* início dos Botões da loja*/
+
+.loja-btn {
+    border: none;
+    color: #ffffff;
+    background-color: #345e9c;
+    cursor: pointer;
+    font-family: 'Raleway';
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: .2s;
+}
+
+.loja-btn:hover {
+    background-color: #3b87e9;
+
+}
+
+.btn-compra {
+    border: none;
+    color: #ffffff;
+    background-color: #fa7203;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-size: 15px;
+    border-radius: 30px;
+    width: 120px;
+    height: 30px;
+    transition: .2s;
+}
+
+.btn-compra:hover{
+    background-color: #ffa735;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-top: 2px solid #353636a4;
+    padding-top: 30px;
+}
+
+.footer-descricao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20px;
+    width: 800px;
+    margin-left: 30px;
+    gap: 30px;
+}
+
+.footer-sociais {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    gap: 10px;
+}
+/* Paleta escura preservada; dimensões de desktop baseadas no original. */
+:root{color-scheme:dark;--ink:#0b141e;--panel:#142331;--text:#eef4fa;--muted:#b8c9d7;--accent:#eab65d}
+body{background:var(--ink);color:var(--text)}
+.container{background:#edf6fc;z-index:10;top:0;left:0}
+
+.banner{background:linear-gradient(90deg,#08131de8,#08131d99),url('../assets/imagens/BackGrounds/fundo de gelo.jpg') center/cover;min-height:550px;height:auto;padding-bottom:20px}
+.banner2{background:linear-gradient(#0b141ed9,#0b141e),url('../assets/imagens/BackGrounds/God-of-War-Series.jpg') center/cover;min-height:780px;height:auto}
+.kratos-atreus{min-height:780px;height:auto;padding-bottom:30px;background-size:auto 780px}
+.introducao h2{font-family:Nordica;color:var(--accent);font-size:4rem;margin:20px 0 50px;letter-spacing:5px;text-shadow:2px 2px #000}
+.loja{background:#101e2a}.loja-titulo{color:var(--accent);text-align:center}.loja-titulo h2{font-size:40px}
+.loja-game img{width:auto;height:auto;max-width:100%}.loja-game{width:220px;max-width:100%}
+.btn1,.loja-btn,.btn-compra{display:inline-flex;align-items:center;justify-content:center;text-align:center}
+footer{background:var(--ink);color:var(--muted);padding-bottom:30px}.footer-descricao h3{color:var(--text)}
+.logo img{width:200px;height:auto}.lancamento img{width:482px;height:auto;max-width:100%}.lancamento{height:auto;min-height:355px}.container-colum iframe{width:445px;height:250px;flex-shrink:0}.footer-descricao img{width:100px;height:auto}.footer-sociais img{width:50px;height:50px}
