@@ -3,7 +3,7 @@
 Projeto educacional não oficial de Diogo Nunes, inspirado na página da PlayStation, criado para praticar desenvolvimento front-end. Não possui vínculo com Sony ou Santa Monica Studio.
 
 ## Histórico
-Os arquivos originais incluem recursos datados de 2023 a 2025. A data exata de criação não foi confirmada.
+desenvolvi de 2023 a 2025, conforme adiquiria experiência.
 
 ## Tecnologias
 HTML5, CSS3 (Flexbox, Grid e media queries) e JavaScript.
